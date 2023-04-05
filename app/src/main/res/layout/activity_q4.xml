@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shrug"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    tools:context=".ActivityQ4">
+
+
+    <Button
+        android:id="@+id/proceed_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/light_green_300"
+        android:text="@string/proceed"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <TextView
+        android:id="@+id/q4"
+        android:layout_width="300dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/q4"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/proceed_btn" />
+
+    <TextView
+        android:id="@+id/choice4a"
+        android:layout_width="90dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="148dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:text="@string/choice4a"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/q4" />
+
+    <TextView
+        android:id="@+id/choice4b"
+        android:layout_width="90dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:text="@string/choice4b"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choice4a"
+        app:layout_goneMarginTop="8dp" />
+
+    <TextView
+        android:id="@+id/choice4c"
+        android:layout_width="90dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:text="@string/choice4c"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choice4b"
+        app:layout_goneMarginTop="8dp" />
+
+    <TextView
+        android:id="@+id/choice4d"
+        android:layout_width="105dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:text="@string/choice4d"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choice4c"
+        app:layout_goneMarginTop="8dp" />
+
+    <CheckBox
+        android:id="@+id/box1a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="60dp"
+        android:text="@string/a"
+        android:textColor="@color/black"
+        android:background="@color/indigo_100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/box1b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:text="@string/b"
+        android:textColor="@color/black"
+        android:background="@color/indigo_100"
+        app:layout_constraintBottom_toBottomOf="@+id/box1a"
+        app:layout_constraintStart_toEndOf="@+id/box1a"
+        app:layout_constraintTop_toTopOf="@+id/box1a"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/box1c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:text="@string/c"
+        android:textColor="@color/black"
+        android:background="@color/indigo_100"
+        app:layout_constraintBottom_toBottomOf="@+id/box1b"
+        app:layout_constraintStart_toEndOf="@+id/box1b"
+        app:layout_constraintTop_toTopOf="@+id/box1b"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/box1d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/d"
+        android:textColor="@color/black"
+        android:background="@color/indigo_100"
+        app:layout_constraintBottom_toBottomOf="@+id/box1c"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toEndOf="@+id/box1c"
+        app:layout_constraintTop_toTopOf="@+id/box1c"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
